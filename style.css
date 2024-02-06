@@ -1,0 +1,39 @@
+body
+{
+    background-image: url(font.jpg);
+    background-position: center;
+}
+h1
+{
+    align-content: center;
+    size: 20px;
+    -webkit-text-stroke: 0.5px rgb(21, 255, 0);
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
+form
+{
+    background-color: chartreuse;
+}
+h2
+{
+   font-size: 80px;
+   -webkit-text-stroke: 0.5px rgb(21, 255, 0);
+   -webkit-text-fill-color: rgb(0, 0, 0);
+}
+h1 
+{
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+  
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+         }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
